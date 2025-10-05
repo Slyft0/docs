@@ -11,12 +11,16 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Manager",
         "groups": [
           {
-            "group": "Getting started",
             "pages": [
-              "index",
+              "index"
+            ]
+          },
+          {
+            "group": "Tutoriel",
+            "pages": [
               "obtenir-un-bot",
               "creer-un-token",
               "lier-un-token"
@@ -26,13 +30,7 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {

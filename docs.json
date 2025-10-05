@@ -39,6 +39,12 @@
     "dark": "/images/logo.png"
   },
   "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://discord.gg/elix"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",

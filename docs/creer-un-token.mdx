@@ -1,0 +1,52 @@
+---
+title: "Créer un token"
+description: "Apprends à générer un token Discord pour ton bot Elix."
+---
+
+# Créer un token Discord
+
+Avant de pouvoir utiliser ton bot Elix, tu dois générer un **token Discord** via le [Discord Developer Portal](https://discord.com/developers/applications).
+
+Ce token permettra à Elix de se connecter à ton bot Discord. Voici les étapes à suivre :
+
+<Steps>
+  <Step title="Accéder au portail développeur">
+    Va sur le site officiel : https://discord.com/developers/applications Clique sur le bouton **"New Application"** en haut à droite.
+
+    ![Clique Ici New App](/images/CliqueIciNewApps)
+  </Step>
+  <Step title="Créer une nouvelle application">
+    Donne un nom à ton application (par exemple : MonBotElix), puis clique sur **"Create"**.
+
+    ![Cliqueici New App Pn](/images/CliqueiciNewApp.png)
+  </Step>
+  <Step title="Configurer le bot dans l'application">
+    Une fois l'application créée, va dans l'onglet **"Bot"** dans le menu à gauche.\
+    Ici, active les trois intents suivants en les cochant :
+
+    - **PRESENCE INTENT**
+    - **SERVER MEMBERS INTENT**
+    - **MESSAGE CONTENT INTENT**
+
+      ![Intents O](/images/IntentsOn)
+
+    Ensuite, clique sur **"Reset Token"** pour générer un nouveau token, puis sur **"Copy"** pour le copier.
+
+    ![Clique Ici Reset Toke](/images/CliqueIciResetToken)
+
+    \
+    Ce token te servira à lier ton bot Elix.
+
+    <Warning>
+      **Ne partage jamais ton token, il donne un contrôle total sur ton bot.**
+    </Warning>
+  </Step>
+</Steps>
+
+---
+
+## Prochaine étape
+
+Une fois ton token copié, tu dois le **lier à ton bot Elix**.
+
+[Clique ici pour lier ton token](/lier-un-token)

@@ -7,7 +7,7 @@
     "light": "#60c7e9",
     "dark": "#8dd7f7"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/logo.png",
   "navigation": {
     "tabs": [
       {
@@ -19,7 +19,7 @@
               "index",
               "obtenir-un-bot",
               "creer-un-token",
-              "liertoken"
+              "lier-un-token"
             ]
           }
         ]
@@ -36,8 +36,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
   "navbar": {
     "primary": {
@@ -47,10 +47,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view"
-    ]
+    "options": []
   },
   "footer": {
     "socials": {

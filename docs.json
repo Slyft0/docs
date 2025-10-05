@@ -14,6 +14,7 @@
         "tab": "Manager",
         "groups": [
           {
+            "group": "Général",
             "pages": [
               "index"
             ]
